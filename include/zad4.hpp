@@ -3,9 +3,9 @@
 #include <vector>
 
 // tutaj funkcja obliczMake
-double obliczMake(std::vector<Tagliatelle> vec) {
+double obliczMaka(const std::vector<Tagliatelle>& vec) {
 	double M=0;
-	int c = vec.size()+1;
+	int c = vec.size();
 	for (auto n : vec) {
 		M = M + (n.ileMaki(c));
 		c--;

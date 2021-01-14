@@ -6,4 +6,7 @@
 
 // tutaj klasa Penne
 
+class Penne : public Makaron {
+	double ileMaki(unsigned a) const override { return (double)a; }
+};
 // tutaj definicja metody gotujMakaron
