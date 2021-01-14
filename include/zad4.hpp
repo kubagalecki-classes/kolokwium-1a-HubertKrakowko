@@ -3,7 +3,7 @@
 #include <vector>
 
 // tutaj funkcja obliczMake
-double obliczMaka(const std::vector<Tagliatelle>& vec) {
+double obliczMake(const std::vector<Tagliatelle>& vec) {
 	double M=0;
 	int c = vec.size();
 	for (auto n : vec) {
@@ -14,7 +14,7 @@ double obliczMaka(const std::vector<Tagliatelle>& vec) {
 		throw(10);
 	}
 	else if (M > 50) {
-		throw(0.5);
+		throw(double)(0.5);
 	}
 	else {
 		return M;
