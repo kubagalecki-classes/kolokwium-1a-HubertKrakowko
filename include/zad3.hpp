@@ -4,6 +4,6 @@
 
 // tutaj funkcja polejSosem
 template <typename T>
-size_t polejSosem(const Tagliatelle* N, T* U) {
+std::size_t polejSosem(const Tagliatelle* N, T* U) {
 	return(polej(U, N));
 }
